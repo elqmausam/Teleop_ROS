@@ -1,6 +1,6 @@
 from std_msgs.msg import String
 import rclpy
-
+from rclpy.node import Node
 
 class MinimalPublisher(Node):
     def __init__(self):
